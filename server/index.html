@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebSocket Test</title>
+  </head>
+  <body>
+    <script>
+      const socket = new WebSocket('ws://localhost:3000'); // Replace the URL with your server's URL
+
+      socket.onopen = () => {
+        console.log('Connected to WebSocket server');
+        socket.send('Hello, WebSocket server!');
+      };
+
+      socket.onmessage = (event) => {
+        console.log('Received message from server:', event.data);
+      };
+
+      socket.onclose = () => {
+        console.log('WebSocket connection closed');
+      };
+    </script>
+  </body>
+</html>
