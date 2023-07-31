@@ -5,7 +5,7 @@ Demo
 
 ## Demo Video
 
-[![BambooStreamApp Demo](https://youtu.be/jAGCHogQ79Y)](https://youtu.be/jAGCHogQ79Y)
+[https://youtu.be/jAGCHogQ79Y](https://youtu.be/jAGCHogQ79Y)
 
 ## Deployed Web
 
@@ -35,11 +35,11 @@ Visit the deployed web application at [https://huynhtruc0309.github.io/BambooStr
    ```
 
 2. Run the client:
-
-  ```bash
-  cd BambooStreamApp
-  http-server
-  ```
+  
+   ```bash
+   cd BambooStreamApp
+   http-server
+   ```
 
 3. Run the development server:
    ```bash
